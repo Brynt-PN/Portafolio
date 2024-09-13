@@ -1,0 +1,16 @@
+@import url('Variables.css');
+
+.box-grupo{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid var(--linea-contraste);
+}
+.box-grupo h2{
+    color: var(--verde-industrial);
+    font-size: 1.3rem;
+    font-family: var(--par);
+}
+.box-grupo li{
+    list-style-type: none;
+}

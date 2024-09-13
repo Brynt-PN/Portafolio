@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+  /* COLORS */
+  --fondo:#f5f6f7;
+  --linea-contraste:#e5e5e5;
+  --principal:#333333;
+  --acento:#0077B6;
+  --secundario:#FF6F61;
+  --terciario:#FFFFFF;
+  --verde-industrial: #2E5D31;
+  --gris-metalizado: #4F5B62;
+  --madera-clara: #D9A162;
+  --verde-claro: #A7C8A2;
+  --cobre: #B56C45;
+  /* FONTS */
+  --title:"Protest Guerrilla";
+  --par:"Ubuntu";
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body {
+  font-size: 18px;
+  box-sizing: border-box;
+}
+.titulo-principal {
+  font-family: var(--title);
+  font-weight: 400;
+  font-style: normal;
+}

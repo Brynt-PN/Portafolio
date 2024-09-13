@@ -1,0 +1,31 @@
+@import url('Variables.css');
+
+.box-user{
+  width: 92.5%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#box-img{
+  min-width: 40px;
+  flex-basis: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+#box-name{
+  display: flex;
+  flex-basis: 80%;
+  align-items: center;
+}
+img{
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+h2{
+  font-size: 1.8rem;
+  color: var(--principal);
+} 
