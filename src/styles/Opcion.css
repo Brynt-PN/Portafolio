@@ -1,1 +1,31 @@
 @import url('Variables.css');
+
+.box-opcion{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 13px 0;
+    font-family: var(--par);
+    color: var(--gris-metalizado);
+    font-weight: 400;
+}
+.box-op-img{
+    min-width: 30px;
+    flex-basis: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.box-op-ico{
+    min-width: 30px;
+    flex-basis: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+.box-op-text{
+    flex-basis: 80%;
+}

@@ -1,20 +1,15 @@
 import '../styles/Grupo.css';
 
-// Components ---------------------------------------------
-import Opcion from './Opcion';
 
-function Grupo({ tituloGrupo }){
+function Grupo({ tituloGrupo, listElements }){
     return (
         <div className='box-grupo'>
             <h2>{tituloGrupo}</h2>
-            <ul>
-                <li>Soy un elemento</li>
-                <li>
-                    <Opcion
-                    
-                    />
-                </li>
-            </ul>
+            {
+                listElements.map((element) =>
+                    element
+                )
+            }
         </div>
     );
 }

@@ -1,8 +1,25 @@
 import '../styles/Opcion.css';
 
-function Opcion(){
+// React Route -------------------------------------
+import { Link } from "react-router-dom";
+
+
+function Opcion({ ico, nameOp, isRRSS, imgName, route }){
     return(
-        <>Soy una opción</>
+        <Link to={route} style={{ textDecoration: 'none' }}>
+            <div className='box-opcion'>
+                <div className={isRRSS ? 'box-op-ico' : 'box-op-img'}>
+                    {isRRSS ? ico : <img 
+                                        src={require(`../img/${imgName}`)}
+                                        className='img-op'
+                                    />
+                    }
+                </div>
+                <div className='box-op-text'>
+                    {nameOp}
+                </div>
+            </div>
+        </Link>
     );
 }
 
