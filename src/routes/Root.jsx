@@ -30,25 +30,25 @@ function Root(){
                             ico={<IoLogoWhatsapp />}
                             nameOp='Simulador de Caja'
                             isRRSS={false}
-                            imgName='Brayant.jpg'
+                            imgName='simuladorBancario.svg'
                         />,
                         <Opcion
                             ico={<IoLogoWhatsapp />}
                             nameOp='Route Maker'
                             isRRSS={false}
-                            imgName='Brayant.jpg'
+                            imgName='routeMaker.svg'
                         />,
                         <Opcion
                             ico={<IoLogoWhatsapp />}
                             nameOp='Multi link'
                             isRRSS={false}
-                            imgName='Brayant.jpg'
+                            imgName='multilink.ico'
                         />,
                         <Opcion
                             ico={<IoLogoWhatsapp />}
                             nameOp='Apex Demo'
                             isRRSS={false}
-                            imgName='Brayant.jpg'
+                            imgName='apexDemo.png'
                         />
                         
                     ]}
@@ -60,21 +60,25 @@ function Root(){
                             ico={<FaGithub />}
                             nameOp='GitHub'
                             isRRSS={true}
+                            route='https://github.com/Brynt-PN'
                         />,
                         <Opcion
                             ico={<FaLinkedin />}
                             nameOp='Linkedin'
                             isRRSS={true}
+                            route='https://www.linkedin.com/in/brayant-palomino-navarro/'
                         />,
                         <Opcion
                             ico={<IoLogoWhatsapp />}
                             nameOp='WhatsApp'
                             isRRSS={true}
+                            route='https://wa.me/qr/TZW2LGG75QZ3J1'
                         />,
                         <Opcion
                             ico={<BiLogoGmail />}
                             nameOp='Gmail'
                             isRRSS={true}
+                            route='https://mail.google.com/mail/u/1/#inbox'
                         />,
                     ]}
                 />
