@@ -4,6 +4,7 @@ import '../styles/Root.css';
 import Usuario from '../components/Usuario';
 import Grupo from '../components/Grupo';
 import Opcion from '../components/Opcion';
+import CardConten from '../components/CardConten';
 
 // ICONS --------------------------------------------------
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -84,7 +85,12 @@ function Root(){
                 />
             </div>
             <div id='box-area-3' className='box-conten'>
-                Lorem
+                <CardConten
+                user='Brayant'
+                date='15 Sep 2024'
+                text='Mi primer post de Portafolio, estoy Orgulloso'
+                img='post1.jpg'
+                />
             </div>
             <div id='box-area-4' className='box-conten'>
                 Lorem

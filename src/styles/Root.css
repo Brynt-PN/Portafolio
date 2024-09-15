@@ -13,6 +13,7 @@
   background-color: var(--fondo);
 }
 
+/* Header ---------------------------------------- */
 #box-area-1{
   grid-area: a1;
   border-bottom: 2px solid var(--linea-contraste);
@@ -21,19 +22,22 @@
   justify-content: start;
   padding: 5px 0;
 }
+/* Nav Column ------------------------------------ */
 #box-area-2{
   grid-area: a2;
   min-width: 250px;
   border-right: 2px solid var(--linea-contraste);
-}
-#box-area-3{
-  grid-area: a3;
 }
 #box-area-4{
   grid-area: a4;
   min-width: 250px;
   border-right: 2px solid var(--linea-contraste);
 }
+/* Fedd ------------------------------------------ */
+#box-area-3{
+  grid-area: a3;
+}
+
 .nav-col{
   flex-basis: 20%;
 }

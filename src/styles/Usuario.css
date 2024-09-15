@@ -20,7 +20,7 @@
   flex-basis: 80%;
   align-items: center;
 }
-img{
+#box-img img{
   border-radius: 50%;
   max-width: 100%;
   height: auto;

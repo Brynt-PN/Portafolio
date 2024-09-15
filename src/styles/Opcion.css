@@ -18,6 +18,11 @@
     align-items: center;
     margin-right: 10px;
 }
+.box-op-img img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
 .box-op-ico{
     min-width: 30px;
     flex-basis: 30px;

@@ -1,0 +1,62 @@
+@import url('Variables.css');
+
+.box-card{
+  width: 680px;
+  min-width: 680px;
+  margin: 0 auto;
+  border: 1px var(--linea-contraste) solid;
+  border-radius: 10px;
+  background-color: var(--terciario);
+  margin-top: 20px;
+}
+
+.box-card-user{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.box-user-date{
+  flex-basis: 100px;
+  min-width: 100px;
+  font-family: var(--title);
+  color: var(--acento);
+}
+
+.box-card-description{
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.box-card-img{
+  overflow: hidden;
+}
+.box-card-img img{
+  max-width: 100%;
+  height: auto;
+}
+
+.box-card-boton{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+}
+.box-boton-link{
+  background-color: var(--fondo);
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px var(--linea-contraste) solid;
+  font-family: var(--par);
+  font-weight: 900;
+  color: var(--acento);
+}
+.box-boton-link:hover{
+  background-color: var(--acento);
+  color: var(--terciario);
+}
