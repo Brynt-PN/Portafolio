@@ -3,11 +3,10 @@
 .box-card{
   width: 680px;
   min-width: 680px;
-  margin: 0 auto;
+  margin: 15px auto 15px auto;
   border: 1px var(--linea-contraste) solid;
   border-radius: 10px;
   background-color: var(--terciario);
-  margin-top: 20px;
 }
 
 .box-card-user{
@@ -32,7 +31,9 @@
 }
 
 .box-card-img{
+  display: flex;
   overflow: hidden;
+  align-items: center;
 }
 .box-card-img img{
   max-width: 100%;

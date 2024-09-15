@@ -20,6 +20,11 @@
   flex-basis: 80%;
   align-items: center;
 }
+.titulo-usuario{
+  font-family: var(--par);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
 #box-img img{
   border-radius: 50%;
   max-width: 100%;

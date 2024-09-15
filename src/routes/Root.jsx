@@ -86,10 +86,58 @@ function Root(){
             </div>
             <div id='box-area-3' className='box-conten'>
                 <CardConten
-                user='Brayant'
+                user={<Usuario 
+                    user='Brayant'    
+                />}
                 date='15 Sep 2024'
                 text='Mi primer post de Portafolio, estoy Orgulloso'
                 img='post1.jpg'
+                />
+                <CardConten
+                user={<Usuario 
+                    user='Brayant'    
+                />}
+                date='15 Sep 2024'
+                text='Una fotito mas actual de como soy ahora'
+                img='post2.jpg'
+                />
+                <CardConten
+                user={<Usuario 
+                    user='Brayant'    
+                />}
+                date='15 Sep 2024'
+                text='Un vistaso a la primera versión del portafolio'
+                img='post3.jpg'
+                />
+                <CardConten
+                user={<Usuario
+                    isOderUser={true}
+                    user='Route Maker'
+                    imgName='routeMaker.svg'    
+                />}
+                date='15 Sep 2024'
+                text='Recuerdo la primera ruta que calcule oficialmente cuando lance Route Maker'
+                img='post4.png'
+                />
+                <CardConten
+                user={<Usuario
+                    isOderUser={true}
+                    user='Route Maker'
+                    imgName='routeMaker.svg'    
+                />}
+                date='15 Sep 2024'
+                text='Un poco del código que calculaba las rutas con latitud y longitud en Python con la Api de Google Maps'
+                img='post5.png'
+                />
+                <CardConten
+                user={<Usuario
+                    isOderUser={true}
+                    user='Route Maker'
+                    imgName='routeMaker.svg'    
+                />}
+                date='15 Sep 2024'
+                text='Asi manejaba las navegación en Route Maker, ah pasado tanto desde mi primer proyecto'
+                img='post6.png'
                 />
             </div>
             <div id='box-area-4' className='box-conten'>

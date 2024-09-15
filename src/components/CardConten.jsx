@@ -8,9 +8,7 @@ function CardConten({ user, date, text, img, route }){
     return(
         <div className="box-card">
             <div className='box-card-user'>
-                <Usuario
-                user={user}
-                />
+                {user}
                 <div className='box-user-date'>
                     <p>{date}</p>
                 </div>

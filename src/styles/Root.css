@@ -22,6 +22,9 @@
   justify-content: start;
   padding: 5px 0;
 }
+.nav-col{
+  flex-basis: 20%;
+}
 /* Nav Column ------------------------------------ */
 #box-area-2{
   grid-area: a2;
@@ -36,9 +39,9 @@
 /* Fedd ------------------------------------------ */
 #box-area-3{
   grid-area: a3;
+  max-height: 95vh;
+  overflow: scroll;
 }
 
-.nav-col{
-  flex-basis: 20%;
-}
+
 
