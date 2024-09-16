@@ -8,6 +8,7 @@ import Usuario from '../components/Usuario';
 import Grupo from '../components/Grupo';
 import Opcion from '../components/Opcion';
 import CardProyect from '../components/CardProyect';
+import PerfilProyecto from './PerfilProyecto';
 
 // ICONS --------------------------------------------------
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -21,6 +22,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
 
 
 function Proyecto(){
@@ -100,6 +102,12 @@ function Proyecto(){
             </div>
             <div id='box-area-3' className='box-conten'>
                 <Outlet />
+                <PerfilProyecto 
+                    imgVaner='vanerRouteMaker.png'
+                    imgPerfil='routeMaker.svg'
+                    user='Route Maker'
+                    descrip='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestiae doloremque aperiam atque sapiente eum ex laboriosam. Repudiandae sunt pariatur, eveniet consequatur eum nesciunt debitis possimus exercitationem aspernatur voluptate velit.'
+                />
                 <div className='box-proyect-cards'>
                     <CardProyect 
                         user='Route Maker'
@@ -111,6 +119,7 @@ function Proyecto(){
                             <FaPython />,
                             <SiDjango />,
                             <SiGooglemaps />,
+                            <FaBootstrap />,
                             <FaGithub />
                         ]}
                     />

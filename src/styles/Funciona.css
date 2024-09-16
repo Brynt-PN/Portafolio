@@ -1,0 +1,21 @@
+@import url('Variables.css');
+
+.box-funciona{
+    max-width: 99%;
+    margin: 0 auto 20px auto;
+}
+
+.box-funciona-texto{
+    margin: 20px 0 15px 0;
+    padding: 0 10px;
+}
+
+.box-funciona-img{
+    margin: 0 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.box-funciona-img img{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,34 @@
+@import url('Variables.css');
+
+.box-herramienta{
+    flex-basis: 34%;
+    overflow: scroll;
+    margin: 10px 0;
+    padding: 0px 10px 30px 10px;
+    background-color: var(--terciario);
+    border: 1px var(--linea-contraste) solid;
+    border-radius: 10px;
+    font-family: var(--par);
+    max-height: 800px;
+}
+
+.box-herramienta-titulo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 25px 0 5px 0;
+    color: var(--acento);
+    font-size: 1.3rem;
+}
+.box-herramienta-titulo h3{
+    color: var(--principal);
+    margin-right: 10px;
+}
+.box-herramienta-titulo p{
+    color: var(--secundario);
+    font-weight: 700;
+}
+
+.box-herramienta-descrip{
+    padding: 0 0 0 10px;
+}

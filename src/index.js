@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // PAGES -------------------------------------------------------
 import Root from "./routes/Root";
 import Proyecto from './routes/Proyecto';
+import PerfilProyecto from './routes/PerfilProyecto';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/proyecto/:proyectId",
-        element: <h1>Sey hello again</h1>
+        element: <PerfilProyecto />
       }
     ]
   }

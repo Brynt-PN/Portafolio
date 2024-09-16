@@ -1,0 +1,95 @@
+@import url('Variables.css');
+
+.box-perfilProyecto{
+    width: 80%;
+    min-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    font-family: var(--par);
+    color: var(--gris-metalizado);
+}
+
+.box-perfilProyecto-vaner{
+    max-height: 500px;
+    overflow: hidden;
+}
+.box-perfilProyecto-vaner img{
+    width: 100%;
+    height: auto;
+}
+
+.box-perfilProyecto-imgPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 460px;
+    left: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: var(--fondo);
+    border: 2px var(--linea-contraste) solid;
+    border-radius: 50%;
+}
+.box-perfilProyecto-imgPerfil img{
+    width: 95%;
+    height: auto;
+}
+
+.box-perfilProyecto-user{
+    padding: 15px 0 60px 180px;
+    border-left: 1px var(--linea-contraste) solid;
+    border-right: 1px var(--linea-contraste) solid;
+    background-color: var(--terciario);
+}
+.box-perfilProyecto-user h2{
+    font-size: 3rem;
+    color: var(--principal);
+}
+
+.box-perfilProyecto-descrip{
+    padding: 0 30px;
+    font-weight: 500;
+    border-left: 1px var(--linea-contraste) solid;
+    border-right: 1px var(--linea-contraste) solid;
+    background-color: var(--terciario);
+}
+.box-perfilProyecto-descrip p{
+    font-size: 1.15rem;
+}
+
+.box-perfilProyecto-boton{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 30px 0 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 1px var(--linea-contraste) solid;
+    border-right: 1px var(--linea-contraste) solid;
+    border-bottom: 1px var(--linea-contraste) solid;
+    background-color: var(--terciario);
+}
+.perfilProyecto-boton-link{
+    padding: 15px 20px;
+    margin-right: 5px;
+    font-weight: 600;
+    color: var(--gris-metalizado);
+    text-decoration: none;
+}
+.perfilProyecto-boton-link:hover{
+    color: var(-acento);
+    border-bottom: 3px var(--acento) solid;
+}
+
+.box-perfilProyecto-contenido{
+    display: flex;
+    justify-content: space-between;
+}
+.perfilProyecto-contenido-variable{
+    flex-basis: 63%;
+    margin: 10px 0;
+    background-color: var(--terciario);
+    border-radius: 10px;
+    border: 1px var(--linea-contraste) solid;
+}

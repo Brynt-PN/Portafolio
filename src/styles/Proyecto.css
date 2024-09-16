@@ -3,7 +3,7 @@
 .box-proyect-cards{
     display: flex;
     max-width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
     margin-top: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
