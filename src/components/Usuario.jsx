@@ -1,8 +1,14 @@
 import '../styles/Usuario.css';
 
-function Usuario({ user, isOderUser, imgName }){
+// REACT ROUTE -------------------------------
+import { Link } from 'react-router-dom';
+
+function Usuario({ user, isOderUser, imgName, route }){
     return(
-        <div className='box-user'>
+        <Link 
+        className='box-user'
+        to={isOderUser ? route : '/'}
+        >
             <div id='box-img'>
                 <img 
                     src={isOderUser ? require(`../img/${imgName}`) : require(`../img/${user}.jpg`)} 
@@ -12,7 +18,7 @@ function Usuario({ user, isOderUser, imgName }){
             <div id='box-name'>
                 <h2 className={isOderUser? 'titulo-usuario' : 'titulo-principal'}>{user}</h2>
             </div>
-        </div>
+        </Link>
     );
 }
 

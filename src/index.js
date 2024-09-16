@@ -6,12 +6,23 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // PAGES -------------------------------------------------------
-import Root from "./routes/Root"
+import Root from "./routes/Root";
+import Proyecto from './routes/Proyecto';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />
+    element: <Root />,
+  },
+  {
+    path: "/proyecto",
+    element: <Proyecto />,
+    children: [
+      {
+        path: "/proyecto/:proyectId",
+        element: <h1>Sey hello again</h1>
+      }
+    ]
   }
 ])
 

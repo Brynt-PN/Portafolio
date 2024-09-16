@@ -1,0 +1,69 @@
+@import url('Variables.css');
+
+.box-cardProyect{
+    flex-basis: 22%;
+    position: relative;
+    text-decoration: none;
+    color: var(--gris-metalizado);
+    font-family: var(--par);
+    background-color: var(--terciario);
+    border: 1px var(--linea-contraste) solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box-cardProyect-img{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+    max-height: 185px;
+}
+.box-cardProyect-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.box-cardProyect-perfilImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    z-index: 4;
+    top: 163px;
+    left: 10px;
+    width: 55px;
+    height: 55px;
+    background-color: var(--fondo);
+    border: 2px var(--linea-contraste) solid;
+    border-radius: 50%;
+}
+.box-cardProyect-perfilImg img{
+    max-width: 95%;
+    height: auto;
+}
+
+.box-cardProyect-name{
+    padding: 5px;
+}
+.box-cardProyect-name h2{
+    font-size: 1.08rem;
+    margin-left: 70px;
+    margin-bottom: 5px;
+}
+
+.box-cardProyect-text{
+    padding: 10px 15px;
+}
+.box-cardProyect-text p{
+    font-size: 0.9rem;
+}
+
+.box-cardProyect-ico{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+    color: var(--acento);
+}

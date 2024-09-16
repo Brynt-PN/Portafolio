@@ -9,7 +9,7 @@
                       "a2 a3"
                       "a4 a3";
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 2fr 37fr 1fr;
+  grid-template-rows: 5vh 92.5vh 2.5vh;
   background-color: var(--fondo);
 }
 
@@ -29,11 +29,14 @@
 #box-area-2{
   grid-area: a2;
   min-width: 250px;
+  max-height: 92.5vh;
+  overflow: scroll;
   border-right: 2px solid var(--linea-contraste);
 }
 #box-area-4{
   grid-area: a4;
   min-width: 250px;
+  max-height: 2.5vh;
   border-right: 2px solid var(--linea-contraste);
 }
 /* Fedd ------------------------------------------ */

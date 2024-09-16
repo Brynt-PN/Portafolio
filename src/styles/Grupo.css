@@ -6,11 +6,13 @@
     padding: 25px 0;
     border-bottom: 1px solid var(--linea-contraste);
 }
-.box-grupo h2{
+.box-grupo-titulo{
     color: var(--acento);
     font-size: 1.3rem;
     font-family: var(--par);
     margin-bottom: 10px;
+    font-weight: 500;
+    text-decoration: none;
 }
 .box-grupo li{
     list-style-type: none;

@@ -1,4 +1,4 @@
-import '../styles/Root.css';
+import '../styles/Proyecto.css';
 
 // REACT ROUTE --------------------------------------------
 import { Outlet } from 'react-router-dom';
@@ -7,17 +7,24 @@ import { Outlet } from 'react-router-dom';
 import Usuario from '../components/Usuario';
 import Grupo from '../components/Grupo';
 import Opcion from '../components/Opcion';
-import CardConten from '../components/CardConten';
+import CardProyect from '../components/CardProyect';
 
 // ICONS --------------------------------------------------
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
+import { FaPython } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
+import { SiGooglemaps } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaJsSquare } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 
 
-function Root(){
-    return (
+function Proyecto(){
+    return(
         <div className='grid-box'>
             <div id='box-area-1' className='box-conten'>
                 <div className='nav-col'>
@@ -93,60 +100,59 @@ function Root(){
             </div>
             <div id='box-area-3' className='box-conten'>
                 <Outlet />
-                <CardConten
-                user={<Usuario 
-                    user='Brayant'    
-                />}
-                date='15 Sep 2024'
-                text='Mi primer post de Portafolio, estoy Orgulloso'
-                img='post1.jpg'
-                />
-                <CardConten
-                user={<Usuario 
-                    user='Brayant'    
-                />}
-                date='15 Sep 2024'
-                text='Una fotito mas actual de como soy ahora'
-                img='post2.jpg'
-                />
-                <CardConten
-                user={<Usuario 
-                    user='Brayant'    
-                />}
-                date='15 Sep 2024'
-                text='Un vistaso a la primera versión del portafolio'
-                img='post3.jpg'
-                />
-                <CardConten
-                user={<Usuario
-                    isOderUser={true}
-                    user='Route Maker'
-                    imgName='routeMaker.svg'    
-                />}
-                date='15 Sep 2024'
-                text='Recuerdo la primera ruta que calcule oficialmente cuando lance Route Maker'
-                img='post4.png'
-                />
-                <CardConten
-                user={<Usuario
-                    isOderUser={true}
-                    user='Route Maker'
-                    imgName='routeMaker.svg'    
-                />}
-                date='15 Sep 2024'
-                text='Un poco del código que calculaba las rutas con latitud y longitud en Python con la Api de Google Maps'
-                img='post5.png'
-                />
-                <CardConten
-                user={<Usuario
-                    isOderUser={true}
-                    user='Route Maker'
-                    imgName='routeMaker.svg'    
-                />}
-                date='15 Sep 2024'
-                text='Asi manejaba las navegación en Route Maker, ah pasado tanto desde mi primer proyecto'
-                img='post6.png'
-                />
+                <div className='box-proyect-cards'>
+                    <CardProyect 
+                        user='Route Maker'
+                        text='Organiza tus Rutas mas rapido y facil'
+                        imgCard='post4.png'
+                        imgUser='routeMaker.svg'
+                        route='/proyecto/routeMaker'
+                        listIco={[
+                            <FaPython />,
+                            <SiDjango />,
+                            <SiGooglemaps />,
+                            <FaGithub />
+                        ]}
+                    />
+                    <CardProyect 
+                        user='Simulador de Caja'
+                        text='Practica el ingreso de operaciones bancarias en caja'
+                        imgCard='vanerSimulador.png'
+                        imgUser='simuladorBancario.svg'
+                        route='/proyecto/simuladorCaja'
+                        listIco={[
+                            <FaHtml5 />,
+                            <FaCss3Alt />,
+                            <FaJsSquare />,
+                            <FaGithub />
+                        ]}
+                    />
+                    <CardProyect 
+                        user='Multi link'
+                        text='Todas tus redes sociales en un solo link'
+                        imgCard='vanerMultiLink.png'
+                        imgUser='multilink.ico'
+                        route='/proyecto/multiLink'
+                        listIco={[
+                            <FaHtml5 />,
+                            <FaCss3Alt />,
+                            <FaJsSquare />,
+                            <FaReact />,
+                            <FaGithub />
+                        ]}
+                    />
+                    <CardProyect 
+                        user='Apex Demo'
+                        text='Una pagina de muestra con tematica de un videojuego'
+                        imgCard='vanerApex.png'
+                        imgUser='apexDemo.png'
+                        route='/proyecto/apexDemo'
+                        listIco={[
+                            <FaHtml5 />,
+                            <FaCss3Alt />
+                        ]}
+                    />
+                </div>
             </div>
             <div id='box-area-4' className='box-conten'>
                 Lorem
@@ -155,4 +161,4 @@ function Root(){
     );
 }
 
-export default Root;
+export default Proyecto;
