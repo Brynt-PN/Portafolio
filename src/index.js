@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/Root";
 import Proyecto from './routes/Proyecto';
 import PerfilProyecto from './routes/PerfilProyecto';
+import Contenido from './routes/Contenido';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,13 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/proyecto/:proyectId",
-        element: <PerfilProyecto />
+        element: <PerfilProyecto />,
+        children : [
+          {
+            path: "/proyecto/:proyectId/:contenId",
+            element: <Contenido />
+          }
+        ]
       }
     ]
   }

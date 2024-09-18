@@ -102,12 +102,6 @@ function Proyecto(){
             </div>
             <div id='box-area-3' className='box-conten'>
                 <Outlet />
-                <PerfilProyecto 
-                    imgVaner='vanerRouteMaker.png'
-                    imgPerfil='routeMaker.svg'
-                    user='Route Maker'
-                    descrip='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestiae doloremque aperiam atque sapiente eum ex laboriosam. Repudiandae sunt pariatur, eveniet consequatur eum nesciunt debitis possimus exercitationem aspernatur voluptate velit.'
-                />
                 <div className='box-proyect-cards'>
                     <CardProyect 
                         user='Route Maker'

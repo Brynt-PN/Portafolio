@@ -1,0 +1,52 @@
+{
+    "routeMaker" : {
+        "user" : "Route Maker",
+        "imgPerfil" : "routeMaker.svg",
+        "imgVaner" : "vanerRouteMaker.png",
+        "descrip" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestiae doloremque aperiam atque sapiente eum ex laboriosam. Repudiandae sunt pariatur, eveniet consequatur eum nesciunt debitis possimus exercitationem aspernatur voluptate velit.",
+        "fun" : [
+            {
+                "text" : "Franja de Código",
+                "imgFunciona" : "post6.png" 
+            },
+            {
+                "text" : "Otro cachito",
+                "imgFunciona" : "post5.png" 
+            }
+        ],
+        "cod" : [
+            {
+                "text" : "Franja de Código",
+                "imgFunciona" : "" 
+            },
+            {
+                "text" : "Otro cachito",
+                "imgFunciona" : "post5.png" 
+            }
+        ],
+        "uso" : [
+            {
+                "text" : "Franja de Código",
+                "imgFunciona" : "post6.png" 
+            },
+            {
+                "text" : "Otro cachito",
+                "imgFunciona" : "" 
+            }
+        ],
+        "tec" : [
+            {
+                "ico" : "<FaPython />",
+                "titulo" : "Python",
+                "porcentaje" : "98%",
+                "text" : "Fue usado para crear la API y poder consumir la API de google maps, tambien los algoritmos que calcula fueron hechos con este lenguaje"
+            },
+            {
+                "ico" : "<FaPython />",
+                "titulo" : "Python",
+                "porcentaje" : "98%",
+                "text" : "Fue usado para crear la API y poder consumir la API de google maps, tambien los algoritmos que calcula fueron hechos con este lenguaje"
+            }
+        ]
+    }
+}
