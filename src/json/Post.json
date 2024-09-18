@@ -1,0 +1,31 @@
+{
+    "postList":[
+        {
+            "isOderUser":true,
+            "user":"Simulador de Caja",
+            "imgName":"simuladorBancario.svg",
+            "date":"15 Sep 2024",
+            "text":"Asi luce terminado el Simulador de Caja, luego de varias correcciones esta funcional y operando.",
+            "img":"vanerSimulador.png",
+            "route":"Simulador de Caja"
+        },
+        {
+            "isOderUser":true,
+            "user":"Route Maker",
+            "imgName":"routeMaker.svg",
+            "date":"15 Sep 2024",
+            "text":"Recuerdo la primera ruta que calcule oficialmente cuando lance Route Maker",
+            "img":"post4.png",
+            "route":"Route Maker"
+        },
+        {
+            "isOderUser":true,
+            "user":"Route Maker",
+            "imgName":"routeMaker.svg",
+            "date":"15 Sep 2024",
+            "text":"Un poco de como se definio el modelo de clases para manejar el ORM con Django",
+            "img":"post5.png",
+            "route":"Route Maker"
+        }
+    ]
+}

@@ -1,7 +1,8 @@
 import '../styles/CardConten.css';
 
+import { routes } from '../js/data';
+
 // Components ---------------------------
-import Usuario from './Usuario';
 import { Link } from 'react-router-dom';
 
 function CardConten({ user, date, text, img, route }){
@@ -20,7 +21,7 @@ function CardConten({ user, date, text, img, route }){
                 <img src={require(`../img/${img}`)}/>
             </div>
             <div className='box-card-boton'>
-                <Link to={route} style={{ textDecoration: 'none' }} className='box-boton-link'>
+                <Link to={routes[route]} style={{ textDecoration: 'none' }} className='box-boton-link'>
                     + Mas
                 </Link>
             </div>

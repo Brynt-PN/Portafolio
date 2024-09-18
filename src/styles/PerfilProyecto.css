@@ -20,6 +20,7 @@
 
 .box-perfilProyecto-imgPerfil{
     display: flex;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     position: absolute;

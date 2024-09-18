@@ -1,7 +1,6 @@
 import '../styles/Root.css';
 
-// REACT ROUTE --------------------------------------------
-import { Outlet } from 'react-router-dom';
+import PostData from "../json/Post.json";
 
 // COMPONENTS ---------------------------------------------
 import Usuario from '../components/Usuario';
@@ -17,6 +16,9 @@ import { BiLogoGmail } from "react-icons/bi";
 
 
 function Root(){
+
+    const listPost = PostData.postList;
+
     return (
         <div className='grid-box'>
             <div id='box-area-1' className='box-conten'>
@@ -92,61 +94,21 @@ function Root(){
                 />
             </div>
             <div id='box-area-3' className='box-conten'>
-                <Outlet />
-                <CardConten
-                user={<Usuario 
-                    user='Brayant'    
-                />}
-                date='15 Sep 2024'
-                text='Mi primer post de Portafolio, estoy Orgulloso'
-                img='post1.jpg'
-                />
-                <CardConten
-                user={<Usuario 
-                    user='Brayant'    
-                />}
-                date='15 Sep 2024'
-                text='Una fotito mas actual de como soy ahora'
-                img='post2.jpg'
-                />
-                <CardConten
-                user={<Usuario 
-                    user='Brayant'    
-                />}
-                date='15 Sep 2024'
-                text='Un vistaso a la primera versión del portafolio'
-                img='post3.jpg'
-                />
-                <CardConten
-                user={<Usuario
-                    isOderUser={true}
-                    user='Route Maker'
-                    imgName='routeMaker.svg'    
-                />}
-                date='15 Sep 2024'
-                text='Recuerdo la primera ruta que calcule oficialmente cuando lance Route Maker'
-                img='post4.png'
-                />
-                <CardConten
-                user={<Usuario
-                    isOderUser={true}
-                    user='Route Maker'
-                    imgName='routeMaker.svg'    
-                />}
-                date='15 Sep 2024'
-                text='Un poco del código que calculaba las rutas con latitud y longitud en Python con la Api de Google Maps'
-                img='post5.png'
-                />
-                <CardConten
-                user={<Usuario
-                    isOderUser={true}
-                    user='Route Maker'
-                    imgName='routeMaker.svg'    
-                />}
-                date='15 Sep 2024'
-                text='Asi manejaba las navegación en Route Maker, ah pasado tanto desde mi primer proyecto'
-                img='post6.png'
-                />
+                {
+                    listPost.map((post) =>
+                        <CardConten
+                            user={<Usuario
+                                isOderUser={post.isOderUser}
+                                user={post.user}
+                                imgName={post.imgName}   
+                            />}
+                            date={post.date}
+                            text={post.text}
+                            img={post.img}
+                            route={post.route}
+                        />
+                    )
+                }
             </div>
             <div id='box-area-4' className='box-conten'>
                 Lorem

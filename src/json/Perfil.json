@@ -3,49 +3,181 @@
         "user" : "Route Maker",
         "imgPerfil" : "routeMaker.svg",
         "imgVaner" : "vanerRouteMaker.png",
-        "descrip" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestiae doloremque aperiam atque sapiente eum ex laboriosam. Repudiandae sunt pariatur, eveniet consequatur eum nesciunt debitis possimus exercitationem aspernatur voluptate velit.",
+        "descrip" : "Este proyecto nos permite ingresar un punto de orien y multiples puntos de destino; con estos datos la aplicación calculara la ruta o rutas necesarias para llegar a todos los destinos. Fue pensado para los pequeños negocios que usan deliveris con multiples puntos de entrega y ordenan sus rutas de despacho manualmente",
         "fun" : [
             {
-                "text" : "Franja de Código",
-                "imgFunciona" : "post6.png" 
-            },
-            {
-                "text" : "Otro cachito",
-                "imgFunciona" : "post5.png" 
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
             }
         ],
         "cod" : [
             {
-                "text" : "Franja de Código",
-                "imgFunciona" : "" 
-            },
-            {
-                "text" : "Otro cachito",
-                "imgFunciona" : "post5.png" 
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
             }
         ],
         "uso" : [
             {
-                "text" : "Franja de Código",
-                "imgFunciona" : "post6.png" 
-            },
-            {
-                "text" : "Otro cachito",
-                "imgFunciona" : "" 
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
             }
         ],
         "tec" : [
             {
-                "ico" : "<FaPython />",
+                "ico" : "FaPython",
                 "titulo" : "Python",
                 "porcentaje" : "98%",
-                "text" : "Fue usado para crear la API y poder consumir la API de google maps, tambien los algoritmos que calcula fueron hechos con este lenguaje"
+                "text" : "Fue usado como lenguaje principal para desarrollar el backent y los algoritmos que calculan las rutas en base a latitud y longitud."
             },
             {
-                "ico" : "<FaPython />",
-                "titulo" : "Python",
-                "porcentaje" : "98%",
-                "text" : "Fue usado para crear la API y poder consumir la API de google maps, tambien los algoritmos que calcula fueron hechos con este lenguaje"
+                "ico" : "SiDjango",
+                "titulo" : "Django",
+                "porcentaje" : "",
+                "text" : "Fue empleado para la API y el ORM"
+            },
+            {
+                "ico" : "SiGooglemaps",
+                "titulo" : "Google Maps API",
+                "porcentaje" : "",
+                "text" : "Consumimos la API de Maps para obtener la longitud y la latitud de cada dirección ingresada."
+            },
+            {
+                "ico" : "FaBootstrap",
+                "titulo" : "Bootstrap",
+                "porcentaje" : "2%",
+                "text" : "Para crear una interfaz simple que reciba y muestre los datos necesarios"
+            }
+        ]
+    },
+    "simuladorCaja" : {
+        "user" : "Simulador de Caja",
+        "imgPerfil" : "simuladorBancario.svg",
+        "imgVaner" : "vanerSimulador.png",
+        "descrip" : "Esta interfaz simula la caja de un banco, permitiendonos ingresar operaciones por código y llevar un registro de las mismas para posteriormente obtener como resultado un cuadre de caja. Esta herramienta se creo con el objetivo que los estidiantes a cajero comercial puedan practicar en un entormo similar al real.",
+        "fun" : [
+            {
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
+            }
+        ],
+        "cod" : [
+            {
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
+            }
+        ],
+        "uso" : [
+            {
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
+            }
+        ],
+        "tec" : [
+            {
+                "ico" : "FaHtml5",
+                "titulo" : "HTML",
+                "porcentaje" : "22%",
+                "text" : "Estructura de la página"
+            },
+            {
+                "ico" : "FaCss3Alt",
+                "titulo" : "CSS",
+                "porcentaje" : "28%",
+                "text" : "Para manejar el estilo de la pagina y la aparinecia de las ventanas flotantes."
+            },
+            {
+                "ico" : "FaJsSquare",
+                "titulo" : "Java Script",
+                "porcentaje" : "50%",
+                "text" : "Se utilizo para todo el el manejo de DOM, las operaciónes y el renderizado dinamico de los datos."
+            }
+        ]
+    },
+    "multiLink" : {
+        "user" : "Multi Link",
+        "imgPerfil" : "multilink.ico",
+        "imgVaner" : "vanerMultiLink.png",
+        "descrip" : "Esta página estatica fue diseñada con Reackt, obtiene sus datos de un archivo JSON. Fue creada para poder mostrar los enlaces de todas las redes sociales con un solo Link",
+        "fun" : [
+            {
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
+            }
+        ],
+        "cod" : [
+            {
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
+            }
+        ],
+        "uso" : [
+            {
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
+            }
+        ],
+        "tec" : [
+            {
+                "ico" : "FaHtml5",
+                "titulo" : "HTML",
+                "porcentaje" : "20%",
+                "text" : "Estructura de la página"
+            },
+            {
+                "ico" : "FaCss3Alt",
+                "titulo" : "CSS",
+                "porcentaje" : "30%",
+                "text" : "Para manejar el estilo de la pagina."
+            },
+            {
+                "ico" : "FaJsSquare",
+                "titulo" : "Java Script",
+                "porcentaje" : "50%",
+                "text" : "Se utilizo para los bucles que leen la información y crean los datos de forma dinamica."
+            },
+            {
+                "ico" : "FaReact",
+                "titulo" : "React",
+                "porcentaje" : "",
+                "text" : "Lo utilizamos para crear componentes reutilizables al momento de diseñar la página lo que hizo mucho mas rapido y eficiente la creación de elemenos de forma dinamica."
+            }
+        ]
+    },
+    "apexDemo" : {
+        "user" : "Apex Demo",
+        "imgPerfil" : "apexDemo.png",
+        "imgVaner" : "vanerApex.png",
+        "descrip" : "Es una página estatica de muestra creada enteramente con HTML y CSS",
+        "fun" : [
+            {
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
+            }
+        ],
+        "cod" : [
+            {
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
+            }
+        ],
+        "uso" : [
+            {
+                "text" : "Contenido en espera",
+                "imgFunciona" : "stop.png" 
+            }
+        ],
+        "tec" : [
+            {
+                "ico" : "FaHtml5",
+                "titulo" : "HTML",
+                "porcentaje" : "40%",
+                "text" : "Estructura de la página"
+            },
+            {
+                "ico" : "FaCss3Alt",
+                "titulo" : "CSS",
+                "porcentaje" : "60%",
+                "text" : "Para manejar el estilo de la pagina."
             }
         ]
     }
